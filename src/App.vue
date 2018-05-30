@@ -8,10 +8,7 @@
               <router-link to="/">Home</router-link>
             </li>
             <li>
-              <router-link to="/recipes">Recipes</router-link>
-            </li>
-            <li>
-              <router-link to="/recipe-details">Details</router-link>
+              <router-link to="/details-plugin">Details</router-link>
             </li>
           </ul>
         </div>

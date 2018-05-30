@@ -3,7 +3,6 @@ import Vuex from 'vuex';
 import createLogger from 'vuex/dist/logger';
 // import Mongoose from 'mongoose'
 import appModule from './app/';
-import recipeModule from './recipe/';
 import { forOwn } from 'lodash';
 
 Vue.use(Vuex);
@@ -12,8 +11,7 @@ Vue.use(Vuex);
 const debug = process.env.NODE_ENV !== 'production';
 
 const modules = {
-    appModule,
-    recipeModule
+    appModule
 };
 let plugins = debug ? [createLogger()] : [];
 forOwn(modules, module => {

@@ -1,4 +1,4 @@
-# Recipes Management Vuejs App
+# RPP Tester App
 ## Includes 
 
 ### Stack
@@ -8,9 +8,4 @@
 - axios
 
 ### Features
-- Beautiful Material Design
-- Intuitive transitions
-- Complex recipe construction with published/un-published flag, ingredient groups, variations, and notes
-- Editing persistance
-- Separately deployable Recipes Listing with Details, and Recipe Details for integration into existing apps 
-- And more to come
+- Blah blah

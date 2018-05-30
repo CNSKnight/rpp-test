@@ -1,7 +1,7 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 module.exports = {
-    baseUrl: '/RecipeDetails/',
+    baseUrl: '/Details/',
     configureWebpack: {
         entry: {
             detailsPlugin: ['./src/details-plugin.js'],
@@ -9,7 +9,7 @@ module.exports = {
         plugins: [
             new HtmlWebpackPlugin({
                 template: './public/index-plugin.html',
-                title: 'Webpack Recipe Details Plugin App',
+                title: 'Webpack  Details Plugin App',
                 inject: 'body',
                 filename: 'index-plugin.html',
                 excludeChunks: ['app']
