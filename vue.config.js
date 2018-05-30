@@ -13,9 +13,6 @@ module.exports = {
                 inject: 'body',
                 filename: 'index-plugin.html',
                 excludeChunks: ['app']
-            }),
-            new webpack.optimize.CommonsChunkPlugin({
-                name: 'common'
             })
         ],
         output: {
