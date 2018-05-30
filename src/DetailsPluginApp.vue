@@ -6,19 +6,19 @@
             </div>
         </aside>
         <main>
-            <recipe-details-plugin/>
+            <details-plugin/>
         </main>
     </div>
 </template>
 
 <script>
 import Notifications from '@/components/notifications/Notifications';
-import RecipeDetailsPlugin from '@/components/recipe-details/RecipeDetailsPlugin';
+import DetailsPlugin from '@/components/details-plugin/DetailsPlugin';
 export default {
   name: 'details-plugin',
   components: {
     'app-notifications': Notifications,
-    'recipe-details-plugin': RecipeDetailsPlugin
+    'details-plugin': DetailsPlugin
   }
 };
 </script>
